@@ -11,7 +11,7 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task0.V26.Lib
     {
         public double Calculate(int x)
         {
-            double y = (Math.Pow(x,2) + 1) / (3 * x + 4);
+            double y = (Math.Pow((double)x,2) + 1) / (3 * (double)x + 4);
             return Math.Round(y,3);
 
         }
