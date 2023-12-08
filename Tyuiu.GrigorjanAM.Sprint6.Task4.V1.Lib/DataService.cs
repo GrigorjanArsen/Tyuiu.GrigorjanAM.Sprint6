@@ -20,9 +20,9 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task4.V1.Lib
             {
                 if ((double)x + 1.2 != 0)
                 {
-                    f = Math.Round(Math.Sin((double)x) / ((double)x + 1.2) + Math.Cos((double)x) * 7 * (double)x - 2,2);
+                    f = Math.Round( Math.Sin((double)x) / ( (double)x + 1.2 ) + Math.Cos((double)x) * 7 * (double)x - 2,2);
                     valueArray[count] = f;
-                    count++;
+                    count++;    
                 }
                 else
                 {

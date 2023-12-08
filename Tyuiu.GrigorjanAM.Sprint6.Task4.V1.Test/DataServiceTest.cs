@@ -16,7 +16,7 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task4.V1.Test
             double[] valuearray = new double[stop - start + 1];
             valuearray[0] = -9.99;
             valuearray[1] = -2;
-            valuearray[2] = 2.17;
+            valuearray[2] = 2.16;
             double[] wait = ds.GetMassFunction(start, stop);
             CollectionAssert.AreEqual(valuearray,wait);
         }
