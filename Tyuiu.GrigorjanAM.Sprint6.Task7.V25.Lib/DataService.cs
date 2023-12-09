@@ -17,7 +17,7 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task7.V25.Lib
             int xcol = 7;
             for (int i = 0; i < rows; i++)
             {
-                if (matrix[i, xcol] % 5 == 0 && matrix[i,xcol] != 0)
+                if (matrix[i, xcol] % 5 == 0 /*&& matrix[i,xcol] != 0*/)
                 {
                     matrix[i, xcol] = 2;
                 }
