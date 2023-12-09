@@ -1,5 +1,5 @@
 ﻿
-namespace Tyuiu.GrigorjanAM.Sprint6.Task6.V29
+namespace Tyuiu.GrigorjanAM.Sprint6.Task7.V25
 {
     partial class FormAbout
     {
@@ -30,30 +30,11 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task6.V29
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
-            this.labelInfo_GAM = new System.Windows.Forms.Label();
-            this.buttonOK_GAM = new System.Windows.Forms.Button();
             this.pictureBoxAvatar_GAM = new System.Windows.Forms.PictureBox();
+            this.buttonOK_GAM = new System.Windows.Forms.Button();
+            this.labelInfo_GAM = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_GAM)).BeginInit();
             this.SuspendLayout();
-            // 
-            // labelInfo_GAM
-            // 
-            this.labelInfo_GAM.AutoSize = true;
-            this.labelInfo_GAM.Location = new System.Drawing.Point(146, -9);
-            this.labelInfo_GAM.Name = "labelInfo_GAM";
-            this.labelInfo_GAM.Size = new System.Drawing.Size(284, 130);
-            this.labelInfo_GAM.TabIndex = 1;
-            this.labelInfo_GAM.Text = resources.GetString("labelInfo_GAM.Text");
-            // 
-            // buttonOK_GAM
-            // 
-            this.buttonOK_GAM.Location = new System.Drawing.Point(345, 133);
-            this.buttonOK_GAM.Name = "buttonOK_GAM";
-            this.buttonOK_GAM.Size = new System.Drawing.Size(75, 23);
-            this.buttonOK_GAM.TabIndex = 2;
-            this.buttonOK_GAM.Text = "OK";
-            this.buttonOK_GAM.UseVisualStyleBackColor = true;
-            this.buttonOK_GAM.Click += new System.EventHandler(this.buttonOK_GAM_Click);
             // 
             // pictureBoxAvatar_GAM
             // 
@@ -61,9 +42,28 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task6.V29
             this.pictureBoxAvatar_GAM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxAvatar_GAM.Location = new System.Drawing.Point(2, 12);
             this.pictureBoxAvatar_GAM.Name = "pictureBoxAvatar_GAM";
-            this.pictureBoxAvatar_GAM.Size = new System.Drawing.Size(138, 134);
-            this.pictureBoxAvatar_GAM.TabIndex = 3;
+            this.pictureBoxAvatar_GAM.Size = new System.Drawing.Size(138, 132);
+            this.pictureBoxAvatar_GAM.TabIndex = 6;
             this.pictureBoxAvatar_GAM.TabStop = false;
+            // 
+            // buttonOK_GAM
+            // 
+            this.buttonOK_GAM.Location = new System.Drawing.Point(345, 133);
+            this.buttonOK_GAM.Name = "buttonOK_GAM";
+            this.buttonOK_GAM.Size = new System.Drawing.Size(75, 26);
+            this.buttonOK_GAM.TabIndex = 5;
+            this.buttonOK_GAM.Text = "OK";
+            this.buttonOK_GAM.UseVisualStyleBackColor = true;
+            this.buttonOK_GAM.Click += new System.EventHandler(this.buttonOK_GAM_Click);
+            // 
+            // labelInfo_GAM
+            // 
+            this.labelInfo_GAM.AutoSize = true;
+            this.labelInfo_GAM.Location = new System.Drawing.Point(146, 0);
+            this.labelInfo_GAM.Name = "labelInfo_GAM";
+            this.labelInfo_GAM.Size = new System.Drawing.Size(284, 130);
+            this.labelInfo_GAM.TabIndex = 4;
+            this.labelInfo_GAM.Text = resources.GetString("labelInfo_GAM.Text");
             // 
             // FormAbout
             // 
@@ -78,7 +78,6 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task6.V29
             this.MinimizeBox = false;
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "О программе";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_GAM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -87,8 +86,8 @@ namespace Tyuiu.GrigorjanAM.Sprint6.Task6.V29
 
         #endregion
 
-        private System.Windows.Forms.Label labelInfo_GAM;
-        private System.Windows.Forms.Button buttonOK_GAM;
         private System.Windows.Forms.PictureBox pictureBoxAvatar_GAM;
+        private System.Windows.Forms.Button buttonOK_GAM;
+        private System.Windows.Forms.Label labelInfo_GAM;
     }
 }
